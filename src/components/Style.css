@@ -1,0 +1,58 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    background-color: blue;
+    margin: 0%;
+    padding: 1%;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: White;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading button {
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.studentTable {
+    display: flex;
+    justify-content: center;
+}
+
+.studentTable table {
+    background-color: white;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.d-grid div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.d-grid div button{
+    padding: 10px;
+    width: 100px;
+}
+.editInput {
+    font-size: 20px;
+    text-align: center;
+}
